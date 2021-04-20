@@ -10,11 +10,11 @@ client.once("ready", () => {
   console.log("🐵 I AAAAM READY 🐱‍🚀");
 });
 
-client.on("message", (message) => {
+client.on("message", async (message) => {
   if (message.guild.id === guildID) {
     //console.log(message);
     if (message.content.toLowerCase() === "ping") {
-      message.channel.send("pong");
+      await message.channel.send("pong");
     }
   }
 });
