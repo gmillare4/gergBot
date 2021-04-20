@@ -4,7 +4,7 @@
   "description": "discord bot",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
