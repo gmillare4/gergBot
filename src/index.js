@@ -13,7 +13,7 @@ client.once("ready", () => {
 client.on("message", (message) => {
   if (message.guild.id === guildID) {
     //console.log(message);
-    if (message.content === "ping") {
+    if (message.content.toLowerCase() === "ping") {
       message.channel.send("pong");
     }
   }
