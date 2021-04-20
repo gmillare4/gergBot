@@ -16,8 +16,8 @@ module.exports = async (message) => {
     if (message.channel.id === channelID) {
       //console.log(message);
       args.shift();
-      if (args[0] in commands) {
-        commands[args[0]](message, args);
+      if (args[0].toLowerCase() in commands) {
+        commands[args[0].toLowerCase()](message, args);
       }
     } else {
       await message.reply("Use the 'gerg-bot' channel you fuck");
