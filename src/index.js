@@ -9,8 +9,11 @@ client.once("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content === "ping") {
-    message.channel.send("pong");
+  if (message.guild.id === "692482578422300722") {
+    //console.log(message);
+    if (message.content === "ping") {
+      message.channel.send("pong");
+    }
   }
 });
 
