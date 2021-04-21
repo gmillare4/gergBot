@@ -8,11 +8,13 @@ const channelID = `${process.env.CHANNEL_ID}`;
 // Required Commands
 const ping = require("./ping");
 const insult = require("./insult");
+const help = require("./help");
 
 // List of commands
 const commands = {
   ping,
   insult,
+  help,
 };
 
 module.exports = async (message) => {
