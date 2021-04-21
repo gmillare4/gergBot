@@ -16,11 +16,13 @@ module.exports = async (message) => {
     if (message.channel.id === channelID) {
       //console.log(message);
       args.shift();
-      console.log(args);
+      //console.log(args);
       if (args.length === 0) {
         await message.reply("what do you want bitch");
       } else if (args[0].toLowerCase() in commands) {
         commands[args[0].toLowerCase()](message, args);
+      } else {
+        await message.reply("that's not a command loser");
       }
     } else {
       await message.reply("use the 'gerg-bot' channel you fuck");
