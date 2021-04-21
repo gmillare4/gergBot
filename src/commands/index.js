@@ -1,12 +1,14 @@
 require("dotenv").config();
 
 const ping = require("./ping");
+const insult = require("./insult");
 
 const guildID = `${process.env.GUILD_ID}`;
 const channelID = `${process.env.CHANNEL_ID}`;
 
 const commands = {
   ping,
+  insult,
 };
 
 module.exports = async (message) => {
