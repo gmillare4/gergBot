@@ -5,7 +5,7 @@ const exampleEmbed = new Discord.MessageEmbed()
   .setTitle("List of Commands")
   //   .setURL("https://discord.js.org/")
   .setAuthor(
-    "GergBot",
+    "Github",
     "https://raw.githubusercontent.com/gmillare4/Audio-Visualizer/master/assets/audiovis%20headshot%20(1).png",
     "https://github.com/gmillare4/gergBot"
   )
