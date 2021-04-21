@@ -11,6 +11,7 @@ const client = new Discord.Client();
 // Terminal message on initialization
 client.once("ready", () => {
   console.log("🐵 I AAAAM READY 🐱‍🚀");
+  client.user.setActivity("gerg help");
 });
 
 // Event listener on message
