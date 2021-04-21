@@ -14,11 +14,11 @@ const insults = [
 module.exports = async (message, args) => {
   if (args[0].toLowerCase() === "insult") {
     const randomNum = Math.floor(Math.random() * 10);
-    if (args[1][0] === "<") {
-      await message.channel.send(`${args[1]}, ${insults[randomNum]}`);
-    } else {
+    if (!args[1] || args[1][0] !== "<") {
       const authorId = message.author.id;
       await message.channel.send(`<@${authorId}>, ${insults[randomNum]}`);
+    } else {
+      await message.channel.send(`${args[1]}, ${insults[randomNum]}`);
     }
   }
 };
