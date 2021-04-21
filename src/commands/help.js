@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 const exampleEmbed = new Discord.MessageEmbed()
-  .setColor("#0099ff")
+  .setColor("#9E84EE")
   .setTitle("List of Commands")
   //   .setURL("https://discord.js.org/")
   .setAuthor(
