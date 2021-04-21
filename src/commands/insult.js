@@ -1,3 +1,4 @@
+// List of insults
 const insults = [
   "If I throw a stick, will you leave?",
   "You’re a gray sprinkle on a rainbow cupcake.",
@@ -11,12 +12,16 @@ const insults = [
   "I’ll never forget the first time we met. But I’ll keep trying.",
 ];
 
+// Insults you or the person you @
 module.exports = async (message, args) => {
   if (args[0].toLowerCase() === "insult") {
+    // Generates a number from 0-9 to pick from the array of insults
     const randomNum = Math.floor(Math.random() * 10);
+    // Insults you if you don't put any argument or don't @ someone
     if (!args[1] || args[1][0] !== "<") {
       const authorId = message.author.id;
       await message.channel.send(`<@${authorId}>, ${insults[randomNum]}`);
+      // Insults the person you @
     } else {
       await message.channel.send(`${args[1]}, ${insults[randomNum]}`);
     }
