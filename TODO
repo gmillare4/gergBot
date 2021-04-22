@@ -1,5 +1,6 @@
 [] deploy on heroku
 [] backend to save information
     [] rank based on number of gerg commands
-[] insult command
+[x] insult command
+[x] help command
 [] ask questions? get quotes?
