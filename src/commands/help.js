@@ -6,13 +6,13 @@ const exampleEmbed = new Discord.MessageEmbed()
   //   .setURL("https://discord.js.org/")
   .setAuthor(
     "Github",
-    "https://raw.githubusercontent.com/gmillare4/Audio-Visualizer/master/assets/audiovis%20headshot%20(1).png",
+    "https://raw.githubusercontent.com/gmillare4/gergBot/master/public/GergBot%20Headshot.png",
     "https://github.com/gmillare4/gergBot"
   )
   //   .setDescription("Some description here")
   //   .setThumbnail("https://i.imgur.com/wSTFkRM.png")
   .addFields(
-    { name: "Insult", value: "gerg insult <@Person>" },
+    { name: "Insult", value: "gerg insult <@person>" },
     { name: "Ping", value: "gerg ping" }
     // { name: "\u200B", value: "\u200B" },
     // { name: "Inline field title", value: "Some value here", inline: true },
