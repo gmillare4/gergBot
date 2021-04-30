@@ -9,6 +9,7 @@ Commands:
     [x] help
         [] or commands
         [] add a link to site with all of the commands fully explained
+            [] filter for commands
     [] balance
     [] badges/achievements
     [] gif / meme
