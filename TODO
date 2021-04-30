@@ -1,6 +1,18 @@
 [] deploy on heroku
 [] backend to save information
-    [] rank based on number of gerg commands
-[x] insult command
-[x] help command
-[] ask questions? get quotes?
+    
+Features:
+    [] currency based on number of gerg commands
+
+Commands:
+    [x] insult
+    [x] help
+        [] or commands
+        [] add a link to site with all of the commands fully explained
+    [] balance
+    [] badges/achievements
+    [] gif / meme
+    [] music
+    [] videos
+        [] or youtube
+        - link to youtube
