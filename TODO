@@ -2,8 +2,6 @@
 [] backend to save information
 
 [] add testing framework
-    [] unit testing
-    [] integration testing
     
 Features:
     [] currency based on number of gerg commands
