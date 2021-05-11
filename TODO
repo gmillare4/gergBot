@@ -1,5 +1,9 @@
 [] deploy on heroku
 [] backend to save information
+
+[] add testing framework
+    [] unit testing
+    [] integration testing
     
 Features:
     [] currency based on number of gerg commands
@@ -17,3 +21,4 @@ Commands:
     [] videos
         [] or youtube
         - link to youtube
+    [] playlists (list of spotify playlist that you can play)
