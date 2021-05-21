@@ -2,7 +2,9 @@
 
 *GergBot is a Discord bot built for private use among friends.*
 
-Use GergBot by typing in "gerg (<)argument(>)"
+
+
+Use GergBot by typing in "gerg &lt;argument&gt;"
 
 Gergbot will yell and insult you if you...
 - use "gerg" without any arguments
